@@ -8,6 +8,9 @@ set -eux -o
 sudo yum update -y
 sudo yum install -y docker
 
+## install git
+sudo yum install -y git
+
 ## start docker
 sudo service docker start
 
