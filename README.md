@@ -19,7 +19,7 @@ In order to use the in-browser Java SSH Client to ssh to EC2 instances, please u
 Specify the path to your key-pair file and connect.
 
 
-3. Check out the scripts with `git clone https://github.com/qge/hdp.git`, and then `cd hdp`
+3. Install git with `sudo yum install -y git`. Check out the scripts with `git clone https://github.com/qge/hdp.git`, and then `cd hdp`.
 
 
 4. Install docker on the EC2 instance with `bash install_docker.sh`. Logout the SSH client and login again (Step 2).
@@ -97,4 +97,4 @@ Specify the path to your key-pair file and connect.
 - 8081  ->  8081    Druid2
 - 2201  ->  2201    SSH HDP CDA
 
-The default Ambari credential is raj_ops:raj_ops. The default AmbariShell login credential is root:hadoop.
+The default Ambari credential is `raj_ops:raj_ops`. The default AmbariShell login credential is `root:hadoop`.
