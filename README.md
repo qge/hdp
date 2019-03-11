@@ -28,7 +28,7 @@ Specify the path to your key-pair file and connect.
 5. Run `docker info` to confirm docker is working without `sudo`.
 
 
-6. `cd hdp` if you are not in the `hdp` directory yet. Install HDP through docker with `bash ./HDP_3.0.1/docker-deploy-hdp30.sh`. It will take a while to install.
+6. `cd hdp/HDP_3.0.1` if you are not in the `hdp/HDP_3.0.1` directory yet. Install HDP through docker with `bash docker-deploy-hdp30.sh`. It will take a while to install.
 
 
 7. After it finishes, access Ambari through `http://your-ec2-public-ip:8080/` to confirm it is working.
